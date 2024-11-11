@@ -1,0 +1,39 @@
+{% extends "layout.html" %}
+{% block contacto %}
+  <div class="contact-back" id="contacto">
+    <br>
+    <p class="contacto-label text-center">Contactate con nosotros</p>
+    <div class="container">
+      <form class="row g-3 ">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="inputnNombre">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="inputApellido">
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Ciudad</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Provincia</label>
+          <input type="text" class="form-control" id="inputState">
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Codigo postal</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12 align-self-rigth">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form> 
+    </div>
+    <br>
+  </div>
+{% endblock %} 

@@ -1,0 +1,195 @@
+.btn-primary {
+    color: #333;
+    background-color: #0dfda0;
+    border-color: #0dfda0;
+}
+.btn-primary:hover {
+    color: #333;
+	background: linear-gradient(-45deg, #00b3d3, #10cc48, #bacf00, #d523d5);
+    border-color: #0dfda0;
+}
+
+.btn-primary:focus {
+    color: #333;
+	background: linear-gradient(-45deg, #00b3d3, #10cc48, #bacf00, #d523d5);
+    border-color: #0dfda0;
+}
+
+
+.btn-outline:hover {
+    color: #333;
+	background: linear-gradient(-45deg, #00b3d3, #10cc48, #bacf00, #d523d5);
+}
+
+
+.btn-outline{
+	color: #0dfda0;
+    background-color: #333;
+    border-color: #0dfda0;
+}
+.nav-back {
+	background: linear-gradient(-45deg, #00b3d3, #10cc48, #bacf00, #d523d5);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+    height: 7px;
+    height: 7px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.nav-link{
+    color: aquamarine;
+}
+
+
+.contact-back{
+    background-image: url(img/background-contacto.png);
+    color: white;
+    height: 580px;
+    background-position: bottom;
+}
+
+.contacto-label{
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.back-tienda{
+    background-image: url(img/back-tienda.png);
+    height: 100%;
+    background-attachment: fixed;
+}
+
+.card-nosotros{
+    background-color: #ffffff94;
+}
+
+
+.footer-growing{
+    position: relative;
+    height: 10vh;
+    bottom: 0;
+}
+
+.back-nosotros {
+    background-image: url(img/plantita.jpg);
+    background-position: 100%;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-tienda{
+    border-top:3px solid #00ffb2;
+}
+
+.back-blog{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: linear-gradient(180deg, #134435, #08a373);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-card{
+    padding-bottom: 30px;
+}
+.altoimagen {
+    height: 250px;
+    width: auto;
+}
+.tamaño {
+    margin-left: 50px;
+}
+.margen {
+    margin-top: 30px;
+}
+.card{
+    margin-bottom: 30px;
+}
+.back-header-blog{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    background-color: #00b3d3;
+    padding-top: 18px;
+    height: 110px;
+    vertical-align: center;
+    text-align: center;
+    background-image: url(img/chala.jpg);
+}
+
+.back-header-tienda {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    background-color: #00b3d3a7;
+    padding-top: 18px;
+    
+    height: 110px;
+    background-position-y: center;
+    background-image: url(img/back-tienda.png);
+    text-align: center;
+}
+
+.nosotros{
+    overflow: hidden;
+}
+
+img.card-img-top {
+    max-height: 350px;
+}
+.carrito{
+
+    height: auto;
+    width: 820px;
+    margin-top: 1.125rem    ;
+}
+.compras {
+    margin-right: 20px;
+}
+.footer-growing-text{
+    font-size: 10px;
+    color: whitesmoke!important;
+    text-align: left;
+}
+
+
+/* Marcas destacadas  */
+
+
+.marcas-destacadas{
+    height: 350px;
+    background-color: #222;
+}
+.marcas-destacadas h3{
+    color: whitesmoke;
+    padding-top: 60px;
+}
+
+.marcas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagen-marcas{
+    max-height: 100px;
+    width: auto;
+}
